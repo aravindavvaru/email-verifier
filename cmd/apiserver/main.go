@@ -6,8 +6,8 @@ import (
 	"log"
 	"net/http"
 
-	emailVerifier "github.com/aravindavvaru/email-verifier"
 	"github.com/julienschmidt/httprouter"
+	emailVerifier "github.com/aravindavvaru/email-verifier"
 )
 
 func GetEmailVerification(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {

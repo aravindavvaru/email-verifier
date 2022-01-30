@@ -4,6 +4,7 @@ USER root
 RUN mkdir /build
 WORKDIR /build
 
+RUN go clean -modcache
 RUN apk add --no-cache git
 
 RUN export GO111MODULE=on
