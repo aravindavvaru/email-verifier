@@ -2,6 +2,8 @@ module github.com/aravindavvaru/email-verifier
 
 go 1.15
 
+replace github.com/AfterShip/email-verifier => github.com/aravindavvaru/email-verifier
+
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/hbollon/go-edlib v1.5.0
